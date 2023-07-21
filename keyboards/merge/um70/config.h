@@ -20,7 +20,6 @@
 #define MASTER_LEFT
 #define SPLIT_MODS_ENABLE
 
-#define RGB_DI_PIN D3
 #define RGBLIGHT_SPLIT
 #define RGBLED_NUM 83
 #define RGBLED_SPLIT { 39, 44 }
@@ -29,7 +28,6 @@
 #    define RGB_MATRIX_SPLIT RGBLED_SPLIT
 #endif
 #define RGBLIGHT_SLEEP
-#define RGBLIGHT_LIMIT_VAL 150
 
 #define B6_AUDIO
 

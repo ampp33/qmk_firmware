@@ -17,9 +17,7 @@
 
 #define TAP_CODE_DELAY 10 // tap_code function delay for register and unregister
 
-#define RGB_DI_PIN A10
 #define RGBLED_NUM 22
-#define RGBLIGHT_LIMIT_VAL 225 // value set lower than 255 since current draw is too high
 #define RGBLIGHT_SLEEP
 
 /* animations enabled */

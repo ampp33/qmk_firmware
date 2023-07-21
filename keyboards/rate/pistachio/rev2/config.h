@@ -23,11 +23,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SPLIT_HAND_MATRIX_GRID D4,D3
 
 /* ws2812 RGB LED */
-#define RGB_DI_PIN D2
 #define RGBLIGHT_SPLIT
 #define RGBLED_SPLIT { 38, 46 }
 #define RGBLED_NUM 84
-#define RGBLIGHT_LIMIT_VAL 195
 #define RGBLIGHT_LAYERS
 #define RGBLIGHT_HUE_STEP 10
 #define RGBLIGHT_SAT_STEP 17
@@ -42,6 +40,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LOCKING_SUPPORT_ENABLE
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
-
-/* nKey Rollover */
-#define FORCE_NKRO

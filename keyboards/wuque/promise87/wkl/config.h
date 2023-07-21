@@ -16,12 +16,10 @@
 
 #pragma once
 
-#define RGB_DI_PIN D2
     #define RGBLED_NUM 1
     #define RGBLIGHT_HUE_STEP 8
     #define RGBLIGHT_SAT_STEP 8
     #define RGBLIGHT_VAL_STEP 8
-    #define RGBLIGHT_LIMIT_VAL 200 /* The maximum brightness level */
     #define RGBLIGHT_SLEEP  /* If defined, the RGB lighting will be switched off when the host goes to sleep */
 /*======= RGB function=======*/
 #define RGBLIGHT_EFFECT_BREATHING

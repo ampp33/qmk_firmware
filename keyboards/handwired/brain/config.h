@@ -42,13 +42,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Enables This makes it easier for fast typists to use dual-function keys */
 #define PERMISSIVE_HOLD
 
-/* ws2812 RGB LED */
-#define RGB_DI_PIN D3
-
 #define RGBLED_NUM 28  // Number of LEDs
-
-
-#define RGBLIGHT_LIMIT_VAL 120
 
 #define RGBLIGHT_SPLIT
 
@@ -69,5 +63,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_ONESHOT
 
 //#define TAPPING_TERM 150
-//#define IGNORE_MOD_TAP_INTERRUPT
 //#define QUICK_TAP_TERM 0

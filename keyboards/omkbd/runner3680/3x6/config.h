@@ -25,7 +25,6 @@
 #define LOCKING_RESYNC_ENABLE
 
 /* ws2812 RGB LED */
-#define RGB_DI_PIN D3
 #define RGBLIGHT_EFFECT_BREATHING
 #define RGBLIGHT_EFFECT_RAINBOW_MOOD
 #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
@@ -39,7 +38,6 @@
 #define RGBLED_NUM 36
 #define RGBLIGHT_SPLIT
 #define RGBLED_SPLIT { 18, 18 }    // Number of LEDs
-#define RGBLIGHT_LIMIT_VAL 100
 
 #define SELECT_SOFT_SERIAL_SPEED 1
 /*Sets the protocol speed when using serial communication*/

@@ -14,7 +14,6 @@
 
 #pragma once
 
-#define RGB_DI_PIN F1
 #ifdef RGB_MATRIX_ENABLE
 #define RGB_MATRIX_LED_COUNT 47
 #define RGB_MATRIX_KEYPRESSES                       // Reacts to Keypresses
@@ -65,6 +64,5 @@
 
 #define RGBLIGHT_LAYERS
 #define RGBLIGHT_LAYERS_OVERRIDE_RGB_OFF
-#define RGBLIGHT_LIMIT_VAL 130
 #define RGBLIGHT_SLEEP
 #endif

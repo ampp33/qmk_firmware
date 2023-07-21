@@ -1,5 +1,5 @@
 /*
-Copyright 2020 3araht
+Copyright 2023 3araht
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -33,9 +33,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // for "Generic" Promicro to be detected correctly as lefthand side (slave)
 #define SPLIT_USB_DETECT
 
-/* ws2812 RGB LED */
-#define RGB_DI_PIN D3
-
 #ifdef RGBLIGHT_ENABLE
 #   define RGBLED_NUM 123
 
@@ -44,7 +41,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Not sure but rgblight_sethsv_at() might not support RGBLED_SPLIT yet.
 // Instead, LED data is tranferred from right side to the left via TRRS cable.
 
-#   define RGBLIGHT_LIMIT_VAL 80
 #   define RGBLIGHT_LAYERS
 
 // By default, LEDs of the buttons which are pressed turn on.

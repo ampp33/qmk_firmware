@@ -17,12 +17,10 @@
 #define SPLIT_OLED_ENABLE
 
 /* RGB options */
-#define RGB_DI_PIN B6
 #    define RGBLED_NUM 16
 #    define RGBLIGHT_HUE_STEP 8
 #    define RGBLIGHT_SAT_STEP 8
 #    define RGBLIGHT_VAL_STEP 8
-#    define RGBLIGHT_LIMIT_VAL 255 /* The maximum brightness level */
 #    define RGBLIGHT_SLEEP  /* If defined, the RGB lighting will be switched off when the host goes to sleep */
 /*== choose RGB animations ==*/
 //#    define RGBLIGHT_EFFECT_BREATHING
